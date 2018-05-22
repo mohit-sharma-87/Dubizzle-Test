@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dubizzle</string>
+
+    <string name="release_date">Released\nYear %d</string>
+
+
+    <string name="rating">Rating %s</string>
+    <string name="detail_release">Release on \n%s</string>
+    <string name="enter_min_year">Enter Min Year</string>
+    <string name="enter_max_year">Enter Max Year</string>
+    <string name="error_filter">Max should be greater than min</string>
+
+</resources>
+

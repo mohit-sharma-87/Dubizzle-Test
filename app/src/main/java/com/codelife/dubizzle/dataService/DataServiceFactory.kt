@@ -1,0 +1,37 @@
+package com.codelife.dubizzle.dataService
+
+import com.codelife.dubizzle.BuildConfig
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Retrofit
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
+import retrofit2.converter.gson.GsonConverterFactory
+
+interface DataServiceFactory {
+
+    companion object {
+
+        fun create(): EndPoints {
+
+            val interceptor = HttpLoggingInterceptor()
+            if (BuildConfig.DEBUG) {
+                interceptor.level = HttpLoggingInterceptor.Level.BODY
+            } else {
+                interceptor.level = HttpLoggingInterceptor.Level.NONE
+            }
+
+            val httpClient = OkHttpClient.Builder().addNetworkInterceptor(interceptor).build()
+
+            val retrofit = Retrofit.Builder()
+                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                    .client(httpClient)
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .baseUrl(BuildConfig.HOST_URL)
+                    .build()
+
+            return retrofit.create(EndPoints::class.java)
+        }
+    }
+
+}
+

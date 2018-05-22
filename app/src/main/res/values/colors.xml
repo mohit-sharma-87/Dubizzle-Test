@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#014691</color>
+    <color name="colorPrimaryDark">#003F82</color>
+    <color name="colorAccent">#ffdf1e</color>
+
+    <color name="button_bg_color">#F7DD00</color>
+    <color name="text_color">#A8AEE5</color>
+    <color name="app_blue_color">#262262</color>
+    <color name="dark_yellow">#CCCC00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_translusent">#CCFFFFFF</color>
+    <color name="date_color">#767676</color>
+    <color name="black">#000000</color>
+    <color name="green">#00b400</color>
+
+
+    <color name="black_opacity">#33000000</color>
+    <color name="app_theme_color">#7474DE</color>
+    <color name="app_blue">#262262</color>
+    <color name="app_pink">#fc63cc</color>
+
+    <color name="gray">#888888</color>
+    <color name="gray_per_price">#3d3d3d</color>
+    <color name="gray_stroke">#4d999999</color>
+    <color name="yellow">#ffdf1e</color>
+    <color name="coupon_success">#19b9af</color>
+
+    <color name="separator">#cccccc</color>
+    <color name="separator_alpha">#e9e9e9</color>
+    <color name="white_o_64">#64FFFFFF</color>
+    <color name="white_experiences">#ffffff</color>
+    <color name="white_experiences_tranparent">#64ffffff</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#777777</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#7070f0</color>
+    <color name="dot_dark_screen4">#cdd0d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#B7B7EF</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+
+    <!-- You Screen - Start -->
+    <color name="bg_you_more">#f5f5f5</color>
+    <color name="email_color">#6161ef</color>
+    <color name="pink">#ff63cb</color>
+    <!-- You Screen - End -->
+    <color name="testimonial_name_title">#202020</color>
+    <color name="testimonial_read_more">#5868e8</color>
+    <color name="testimonial_bg">#F2F2F2</color>
+
+    <!-- FilterRequest Screen - Start -->
+    <color name="bg_filter_selected">#f2f2f2</color>
+    <color name="bg_available_activities_guests_view">#EDF2F6</color>
+    <!-- FilterRequest Screen - End -->
+
+    <!-- Sort by - Start -->
+    <color name="sort_enabled">#262262</color>
+    <!-- Sort by - End -->
+
+    <!-- Experience Detail screen - Start-->
+    <color name="special_discount">#e6f55fd0</color>
+    <color name="exp_divider">#e8e8e8</color>
+    <!-- Experience Detail screen - Start-->
+
+
+    <color name="profile_my_name_blue">#23255F</color>
+    <color name="edit_profile_blue">#5868E8</color>
+    <color name="edit_profile_item_black">#888888</color>
+    <color name="setting_third_party">#444444</color>
+    <color name="purple">#5a5ee3</color>
+    <color name="purple_dark">#575990</color>
+    <color name="blue">#42cdf8</color>
+    <color name="text_delete_desc">#888888</color>
+    <color name="guest_name">#5B5B5B</color>
+
+
+    <!--RoomList Color -->
+    <color name="minus_plus_color">#42cdf8</color>
+
+    <!--Date picker -->
+    <color name="day_bg">#F7F7F7</color>
+
+    <!--autocomplete color-->
+    <color name="seprator_bg_color">#F7F7F7</color>
+    <color name="light_gray">#b7b7b7</color>
+
+
+    <!--about us page-->
+    <color name="about_us_description">#888888</color>
+    <color name="about_us_header_color">#2D3B3E</color>
+    <color name="about_us_company_header_color">#262262</color>
+    <color name="about_us_do_fun_background">#F7F7F7</color>
+    <color name="about_us_image_banner_background">#A0A2AF</color>
+    <color name="light_blue">#f3f5f7</color>
+    <color name="sub_title_header">#d7d5f3</color>
+    <color name="setting_title_black">#333333</color>
+    <color name="checkbox_fill">#42CDF8</color>
+
+    <!--about UAE page-->
+    <color name="about_uae_header_color">#262262</color>
+    <color name="temp_heading_color">#1B1B1B</color>
+    <color name="weather_month_color">#CC1B1B1B</color>
+
+
+    <color name="step_default">#a9a0f5</color>
+    <color name="step_active">#ffffff</color>
+    <color name="step_complete">#06baaf</color>
+    <color name="itenary_destination_title">#737373</color>
+    <color name="room_text_color">#4E4E4E</color>
+    <color name="iternary_back_ground">#fbfbfb</color>
+    <color name="red">#ff0000</color>
+
+    <color name="cancelled">#f12a5d</color>
+    <color name="confirmed">#00ac31</color>
+    <color name="other_status">#ff9600</color>
+    <color name="app_theme_color_trans">#CC7474DE</color>
+
+    <color name="bg_special_offer">#F128C2</color>
+    <color name="bg_discount">#36D9C4</color>
+
+    <color name="walkthrough_unselected">#969ebd</color>
+    <!--colors for version 2-->
+
+    <color name="white_three">#f6f6f6</color>
+    <color name="white_three_20">#30f6f6f6</color>
+    <color name="warm_grey">#8d8d8d</color>
+    <color name="warm_grey_80">#CC8d8d8d</color>
+    <color name="brownish_grey_two">#646464</color>
+    <color name="black_10opacity">#1A646464</color>
+    <color name="warm_grey_two_10opacity">#1A7d7d7d</color>
+    <color name="tealish">#29c7b0</color>
+    <color name="sun_yellow">#ffe01e</color>
+    <color name="aqua_marine">#34d9c3</color>
+    <color name="pink_purple">#f128c1</color>
+    <color name="darkish_blue">#004691</color>
+    <color name="indigo">#4f008c</color>
+    <color name="bright_cyan">#42cdf8</color>
+    <color name="darkish_blue_two">#003f82</color>
+    <color name="perrywinkle">#7aace3</color>
+    <color name="white_two">#fefefe</color>
+    <color name="cool_grey">#b4b2bf</color>
+    <color name="pale_grey">#f6f8fb</color>
+    <color name="brownish_grey">#666666</color>
+    <color name="lightblue">#47bdf2</color>
+    <color name="dandelion">#faee07</color>
+    <color name="ruby">#d50054</color>
+    <color name="very_light_pink">#fffefe</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="warm_grey_two">#7d7d7d</color>
+    <color name="white_four">#e9e9e9</color>
+    <color name="dark_sky_blue">#2f7de1</color>
+    <color name="white_five">#f5f5f5</color>
+    <color name="warm_grey_three">#a1a1a1</color>
+    <color name="cornflower">#6161ef</color>
+    <color name="black_two">#101010</color>
+    <color name="white_six">#e3e3e3</color>
+    <color name="white_seven">#e8e8e8</color>
+    <color name="white_78">#c7ffffff</color>
+    <color name="yellow_orange">#fab703</color>
+    <color name="greyish">#b1b1b1</color>
+    <color name="cool_grey_50">#808d99a6</color>
+    <color name="warm_grey_four">#848484</color>
+    <color name="dark_sky_blue_two">#35bced</color>
+    <color name="sunflower_yellow">#f7dd00</color>
+    <color name="black_42">#6b000000</color>
+    <color name="pinkish_grey">#cccccc</color>
+    <color name="white__70">#b3ffffff</color>
+    <color name="dark_sky_blue_90">#e62f7de1</color>
+    <color name="white__90">#e6ffffff</color>
+    <color name="french_blue">#4a6ea9</color>
+    <color name="pale_red">#de4b39</color>
+    <color name="pale_grey_two">#f1f5f7</color>
+    <color name="white_eight">#eaeaea</color>
+    <color name="black_three">#010101</color>
+    <color name="warm_grey_five">#888888</color>
+    <color name="greyish_brown">#3d3d3d</color>
+    <color name="persimmon">#FF5555</color>
+    <color name="black_20">#33000000</color>
+    <color name="algae_green_95">#F222c064</color>
+    <color name="white_nine">#f7f7f7</color>
+    <color name="red_orange">#FF4338</color>
+    <color name="white_ten">#f4f4f4</color>
+    <color name="lipstick">#e22b5f</color>
+    <color name="grassy_green">#3fae04</color>
+    <color name="warm_grey_six">#9c9c9c</color>
+    <color name="white_eleven">#d7d7d7</color>
+    <color name="black_80">#CC000000</color>
+    <color name="white_twelve">#F3F3F3</color>
+
+
+
+
+</resources>
