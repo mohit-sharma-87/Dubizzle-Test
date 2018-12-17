@@ -1,8 +1,8 @@
 package com.codelife.dubizzle.utils;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by mohitsharma on 27/03/18.

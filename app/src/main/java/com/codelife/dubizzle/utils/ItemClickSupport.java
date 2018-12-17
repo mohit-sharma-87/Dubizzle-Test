@@ -1,8 +1,7 @@
 package com.codelife.dubizzle.utils;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
+import androidx.recyclerview.widget.RecyclerView;
 import com.codelife.dubizzle.R;
 
 public class ItemClickSupport {

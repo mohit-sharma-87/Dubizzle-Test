@@ -1,11 +1,10 @@
 package com.codelife.dubizzle.ui.movieDetail
 
-import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import com.bumptech.glide.Glide
 import com.codelife.dubizzle.R
 import com.codelife.dubizzle.databinding.LayoutMovieDetailBinding
@@ -17,7 +16,7 @@ import kotlinx.android.synthetic.main.layout_movie_detail.*
 /**
  * Created by mohitsharma on 22/05/18.
  */
-class MovieDetailFragment : Fragment() {
+class MovieDetailFragment : androidx.fragment.app.Fragment() {
 
     object Constant {
         const val MOVIE_DETAIL_KEY: String = "movieDetail"

@@ -1,7 +1,7 @@
 package com.codelife.dubizzle.ui
 
-import android.databinding.ViewDataBinding
-import android.support.v7.widget.RecyclerView.ViewHolder
+import androidx.databinding.ViewDataBinding
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
 
 /**
  * Created by mohitsharma on 27/08/17.
