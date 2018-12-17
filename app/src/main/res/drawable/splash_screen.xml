@@ -4,7 +4,7 @@
     <item android:drawable="@color/colorPrimary" />
 
     <item>
-        <bitmap android:src="@drawable/brand_logo"
+        <bitmap android:src="@drawable/ic_jetpack_hero"
             android:gravity="center" />
 
     </item>

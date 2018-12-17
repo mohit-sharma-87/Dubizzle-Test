@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dubizzle</string>
+    <string name="app_name">Movie App Sample</string>
 
     <string name="release_date">Released\nYear %d</string>
 
