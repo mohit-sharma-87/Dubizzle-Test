@@ -31,6 +31,11 @@ ext {
     supportLibraryVersion = '1.0.1'
     firebaseVersion = "15.0.0"
     retrofitVersion = "2.4.0"
+
+    coreTestingVersion = '2.0.0'
+    espressoVersion = '3.1.0'
+    junitVersion = '4.12'
+
 }
 
 configurations.all {
