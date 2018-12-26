@@ -1,4 +1,4 @@
-package com.codelife.dubizzle
+package com.codelife.dubizzle.model
 
 import com.codelife.dubizzle.model.MovieDetail
 import com.codelife.dubizzle.model.PopularMovieResponse
