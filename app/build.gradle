@@ -76,5 +76,9 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoVersion"
     testImplementation "junit:junit:$rootProject.junitVersion"
 
+    testImplementation 'androidx.test:rules:1.1.1'
+    androidTestImplementation "androidx.test.ext:junit:1.1.0"
+    testImplementation 'org.robolectric:robolectric:4.0'
+
 }
 
