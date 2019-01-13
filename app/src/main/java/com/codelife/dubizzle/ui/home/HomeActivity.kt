@@ -1,7 +1,7 @@
 package com.codelife.dubizzle.ui.home
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.codelife.dubizzle.R
 
 class HomeActivity : AppCompatActivity() {

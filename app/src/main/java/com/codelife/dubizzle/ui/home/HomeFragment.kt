@@ -3,30 +3,22 @@ package com.codelife.dubizzle.ui.home
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.design.widget.TextInputEditText
-import android.support.design.widget.TextInputLayout
-import android.support.v4.app.Fragment
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.Toast
 import com.codelife.dubizzle.R
-import com.codelife.dubizzle.dataService.DataServiceFactory
 import com.codelife.dubizzle.model.MovieDetail
 import com.codelife.dubizzle.mvp.contracts.MovieListContract
 import com.codelife.dubizzle.mvp.presenter.MovieListPresenter
 import com.codelife.dubizzle.ui.movieDetail.MovieDetailFragment
 import com.codelife.dubizzle.utils.ItemClickSupport
 import com.codelife.dubizzle.utils.SpacesItemDecoration
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.layout_movie_list.*
-import java.util.*
 
-class HomeFragment : Fragment(), MovieListContract.View {
+class HomeFragment : androidx.fragment.app.Fragment(), MovieListContract.View {
 
     companion object {
         fun newInstance() = HomeFragment()
@@ -44,7 +36,7 @@ class HomeFragment : Fragment(), MovieListContract.View {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        rv_movie_list.layoutManager = GridLayoutManager(context, 2)
+        rv_movie_list.layoutManager = androidx.recyclerview.widget.GridLayoutManager(context, 2)
         rv_movie_list.addItemDecoration(SpacesItemDecoration(2, 10, true))
         presenter.start(this)
         presenter.getPopularMovieList(1)

@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.0-alpha08'
+        classpath 'com.android.tools.build:gradle:3.4.0-alpha10'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -28,9 +28,14 @@ task clean(type: Delete) {
 
 
 ext {
-    supportLibraryVersion = "27.1.1"
+    supportLibraryVersion = '1.0.1'
     firebaseVersion = "15.0.0"
     retrofitVersion = "2.4.0"
+
+    coreTestingVersion = '2.0.0'
+    espressoVersion = '3.1.0'
+    junitVersion = '4.12'
+
 }
 
 configurations.all {
