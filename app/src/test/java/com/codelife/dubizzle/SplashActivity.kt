@@ -19,7 +19,7 @@ import org.junit.runner.RunWith
 
 
 @RunWith(AndroidJUnit4::class)
-class ExampleUnitTest {
+class SplashActivity {
 
     @get:Rule
     val rule = IntentsTestRule(SplashActivity::class.java)
